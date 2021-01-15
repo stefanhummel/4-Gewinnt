@@ -3,7 +3,7 @@ import p5 from "p5";
 import { Board, Direction, IFoundFour } from "./board";
 
 let board: Board;
-let fieldSize = 100;
+let fieldSize = 60;
 let margin = 20;
 let currentPlayer = 1;
 let found: IFoundFour = null;
